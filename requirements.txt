@@ -1,3 +1,13 @@
-crewai
-crewai_tools
+# crewai
+# crewai_tools
+# python-dotenv
+
+langchain
+langchain-core
+langchain-community # For DuckDuckGoSearchAPIWrapper, Requests-HTML integration, Groq LLM
 python-dotenv
+duckduckgo-search # For DuckDuckGo web search
+requests-html # For web scraping
+beautifulsoup4 # Often used with requests-html for parsing (though requests-html often pulls it)
+groq # For Groq LLM integration
+tenacity # For robust retry logic
